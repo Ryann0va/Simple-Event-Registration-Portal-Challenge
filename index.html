@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Registration Portal</title>
+</head>
+<body>
+    <h3>Please complete the following registration form:</h3>
+    <form id="registrationForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" required><br><br>
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" name="emailAddress" id="emailAddress" required><br><br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date" required><br><br>
+        Meal Preference:
+            <input type="checkbox" name="vegetarian" id="vegetarian" value="Vegetarian">
+            <label for="vegetarian">Vegetarian</label>
+            <input type="checkbox" name="nonVegetarian" id="nonVegetarian" value="Non-Vegetarian">
+            <label for="vegetarian">Non-Vegetarian</label>
+            <input type="checkbox" name="vegan" id="vegan" value="Vegan">
+            <label for="vegan">Vegan</label><br><br>
+        <input type="submit" value="Submit">
+    </form><br>
+    <div id="registrationSubmission"></div>
+    <script src="script.js"></script>
+</body>
+</html>
